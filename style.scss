@@ -3,7 +3,7 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+html,body{height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; position: relative; max-width: 100%; overflow-x: hidden;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    overflow-x: hidden;
 }
 .wrap{
     max-width: 1168px;
@@ -78,7 +77,6 @@ body{
 
 		&__link {
             font-size: 13px;
-            font-weight: 400;
             text-transform: uppercase;
             color: #fff;
             &:hover{
@@ -143,7 +141,6 @@ body{
                     margin-bottom: 10px;
                 }
                 & > ul{
-                    font-weight: 400;
                     padding-left: 15px;
                     & > li{
                         list-style-type: "- ";
@@ -228,7 +225,6 @@ body{
     &__txt {
         color: #BBB;
         font-size: 18px;
-        font-weight: 400;
         @media (max-width: 600px){
             font-size: 16px;
         }
@@ -273,7 +269,6 @@ body{
         & > p{
             color: #fff;
             font-size: 16px;
-            font-weight: 400;
             max-width: 190px;
             @media (max-width: 600px){
                 font-size: 14px;
@@ -603,7 +598,6 @@ body{
 
 .btn {
     font-size: 13px;
-    font-weight: 400;
     padding: 15px 50px;
     @media (max-width: 511px){
         padding: 10px 45px;
